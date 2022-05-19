@@ -3,7 +3,7 @@
         <%= simple_form_for @info do |f| %>
             <strong>Découvrir <mark class="highlighted highlighted-red">les disponibilités</mark></strong>
             <%= f.input :game, label: "Quelle est l'aventure qui vous intéresse ?", prompt: "Choisissez votre parcours", collection: @games, label_method: lambda { |game| "<span></span>#{game.name}".html_safe } %>
-            <%= f.input :nb_players, label: 'Combien serez-vous au total ?', placeholder:'6', as: :integer, input_html: { min: '3', max: '30', step: '1' } %>
+            <%= f.input :nb_players, label: 'Combien serez-vous au total ?', placeholder:'Nombre de joueurs', as: :numeric, input_html: { min: '3', max: '30', step: '1' }, pattern: "[0-9]*" %>
             <%= f.input :date, label: 'A quelle date souhaiteriez-vous jouer ?', as: :date, start_year: Date.today.year, end_year: Date.today.year + 1 %>
             <%= f.button :submit, 'Voir les disponibilités', class: "cta cta-big cta-primary" %>
         <% end %>
