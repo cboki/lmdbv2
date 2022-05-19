@@ -1,15 +1,46 @@
 <header class="wrapper header-mobile header-home">
     <div class="half">
-        <h1>Découvrez <mark class="highlighted highlighted-red">nos jeux</mark></h1>
+        <h1>Découvrez nos jeux de piste façon <mark class="highlighted highlighted-red">escape game</mark></h1>
         <p class="sub-title">
-            Redécouvrez le patrimoine de la ville et de sa région grâce à nos jeux de piste uniques et des activités de cohésion originales.
+            L'activité de plein air parfaite pour réunir famille, amis et collègues en centre-ville de Bourges au cours d'un moment à la fois divertissant et enrichissant.
         </p>
         <div class="ctas-container">
             <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-primary", role:"button" %>
-            <%= link_to 'Découvrez nos jeux', root_path(anchor: "explore-games"), class: "cta cta-secondary", role:"button" %>
         </div>
     </div>
     <div class="half">
         <%= image_tag "homepage-header.jpg", class:"header-img", alt:"Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
     </div>
 </header>
+<section class="full-wrapper-red datatron-home">
+    <div class="wrapper wrapper-red">
+        <div id="explore-games">
+            <h2>Les <mark class="highlighted highlighted-red">parcours</mark></h2>
+            <div class="game-cards">
+                <div class="game-card" id="availlantcoeur-card">
+                    <div class="game-details">
+                        <h3>❤️ A vaillant coeur </h3>
+                        <p>Jacques Coeur est LE personnage historique local. C'est un incontournable de Bourges. Mais saurez-vous vous montrez digne de sa confiance pour l'aider à protéger sa fortune ?</p>
+                    </div>
+                    <div class="game-pictures-grid">
+                        <% [3, 5, 7, 6].each do |x| %>
+                            <%= image_tag "escape-game-bourges-loisirs-famille-amis-activite-plein-air-evjf-patrimoine-#{x}" %>    
+                        <% end %>   
+                    </div>
+                    <div class="english-flag">Also in English 🇬🇧</div>
+                </div>
+                <div class="game-card">
+                    <div class="game-details">
+                        <h3>📖 La grande his'Tory</h3>
+                        <p>Partez sur les traces de Geoffroy Tory, berruyer méconnu qui a pourtant révolutionné la langue française à la Renaissance. Parviendrez-vous à mettre la main sur son trésor ? </p>
+                    </div>
+                    <div class="game-pictures-grid">
+                        <% [8, 9, 4, 10].each do |x| %>
+                            <%= image_tag "escape-game-bourges-loisirs-famille-amis-activite-plein-air-evjf-patrimoine-#{x}" %>    
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

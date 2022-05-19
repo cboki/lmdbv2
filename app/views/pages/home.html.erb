@@ -90,7 +90,7 @@
 </section>
 <section class="wrapper wrapper-white">
     <h2>Êtes-vous <mark class="highlighted highlighted-red">joueur</mark> ?</h2>
-    <p class="sub-title">En quête de nouvelles activités ludiques ? <a href="nos-parcours-escape-game-bourges.html">Nos parcours</a> sont destinés à des équipes de 3 à 6 joueurs. Tout le monde peut jouer de 7 à 77 ans. Inutile de connaître la ville de Bourges : nos escapes games et parcours-jeux font appel à votre esprit de déduction, de logique et votre sens de l'observation.</p>
+    <p class="sub-title">En quête de nouvelles activités ludiques ? <%= link_to 'Nos parcours', parcours_path %> sont destinés à des équipes de 3 à 6 joueurs. Tout le monde peut jouer de 7 à 77 ans. Inutile de connaître la ville de Bourges : nos escapes games et parcours-jeux font appel à votre esprit de déduction, de logique et votre sens de l'observation.</p>
     <ul class="cards-wrapper">
         <li class="card-container">
             <%= image_tag "escape-game-bourges-loisirs-patrimoine-gamers.jpg", class:"card-cover-image" %>
@@ -136,7 +136,7 @@
         </li>
     </ul>
 </section>
-<section class="full-wrapper-red datatron-home">
+<section class="full-wrapper-red">
     <div class="wrapper wrapper-red">
         <h2>Infos <mark class="highlighted highlighted-red">pratiques</mark></h2>
         <p class="sub-title"><em>Les mystères de Bourges</em> vous accueillent uniquement <%= link_to 'sur réservation', new_inscription_booking_info_path %>.</p>

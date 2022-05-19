@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   #Pages
   get "/parcours", to: "pages#parcours", as: :parcours
+  get "/parcours/concept", to: "pages#concept", as: :concept
 
   root to: "pages#home"
 end
