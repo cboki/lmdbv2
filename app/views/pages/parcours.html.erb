@@ -1,0 +1,15 @@
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Découvrez <mark class="highlighted highlighted-red">nos jeux</mark></h1>
+        <p class="sub-title">
+            Redécouvrez le patrimoine de la ville et de sa région grâce à nos jeux de piste uniques et des activités de cohésion originales.
+        </p>
+        <div class="ctas-container">
+            <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-primary", role:"button" %>
+            <%= link_to 'Découvrez nos jeux', root_path(anchor: "explore-games"), class: "cta cta-secondary", role:"button" %>
+        </div>
+    </div>
+    <div class="half">
+        <%= image_tag "homepage-header.jpg", class:"header-img", alt:"Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
+    </div>
+</header>

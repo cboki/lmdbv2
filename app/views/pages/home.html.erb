@@ -6,7 +6,7 @@
         </p>
         <div class="ctas-container">
             <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-primary", role:"button" %>
-            <%= link_to 'Découvrez nos jeux', new_inscription_booking_info_path, class: "cta cta-secondary", role:"button" %>
+            <%= link_to 'Découvrez nos jeux', root_path(anchor: "explore-games"), class: "cta cta-secondary", role:"button" %>
         </div>
     </div>
     <div class="half">
@@ -44,14 +44,14 @@
         </div>
         <div id="bourges-game-board">
             <h2>Bourges comme <mark class="highlighted highlighted-red">terrain de jeu</mark></h2>
-            <p class="sub-title">À mi-chemin entre escape game et jeu de piste, <a href="nos-parcours-escape-game-bourges.html">nos balades urbaines</a> et nos énigmes inédites sont imaginées autour du patrimoine de Bourges et de l’Histoire locale. Au cours de votre mission en plein air, vous découvrirez à la fois des lieux touristiques ou cachés du centre-ville. Attention, le temps vous est compté ! <em>Les mystères de Bourges</em>, c'est se creuser les méninges et en apprendre plus sur l'histoire d'un quartier tout en s'amusant.</p>
+            <p class="sub-title">À mi-chemin entre escape game et jeu de piste, <%= link_to 'nos balades urbaines', parcours_path %> et nos énigmes inédites sont imaginées autour du patrimoine de Bourges et de l’Histoire locale. Au cours de votre mission en plein air, vous découvrirez à la fois des lieux touristiques ou cachés du centre-ville. Attention, le temps vous est compté ! <em>Les mystères de Bourges</em>, c'est se creuser les méninges et en apprendre plus sur l'histoire d'un quartier tout en s'amusant.</p>
             <div class="rankings">
                 <div class="data">
                     <div class="half">
                         <ul class="datatron">
                             <li class="datatron-item">
                                 <span class="datatron-item-title-large">
-                                    430+
+                                    450+
                                     <i>avis Google</i>
                                 </span>
                                 <p class="datatron-item-content">De nombreux joueurs ont testé le jeu avant vous, et l'ont adoré. A votre tour d'en profiter !</p>
