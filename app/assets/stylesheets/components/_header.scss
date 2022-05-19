@@ -1,0 +1,45 @@
+.header-mobile {
+    padding: 30px 20px;
+
+    .cta:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .header-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 64rem;
+        max-width: var(--container);
+    }
+
+    .header-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+        width: 100%;
+        z-index: 3;
+        
+        .ctas-container {
+            display: flex;
+            align-items: center;
+            .cta {
+                padding: 0 32px;
+            }
+            .cta:first-of-type {
+                margin: 0 36px 0 0;
+            }
+        }
+
+        .header-img {
+            display: block;
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+}

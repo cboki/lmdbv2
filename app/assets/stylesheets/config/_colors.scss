@@ -1,10 +1,39 @@
-// Define variables for your color scheme
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
 
-// For example:
-$red: #FD1015;
-$blue: #0D6EFD;
-$yellow: #FFC65A;
-$orange: #E67E22;
-$green: #1EDD88;
-$gray: #0E0000;
-$light-gray: #F4F4F4;
+:root {
+	--red: #EB5754;
+	--dark-red: #bb0300;
+	--light-red: #fff0ef;
+	--black: #0e0000;
+	--dark-grey: #4a4a4a;
+	--grey: #4b4b4b;
+	--light-grey: #eaeaea;
+	--smooth-grey: #efefef;
+	--light-black: #9c9c9c;
+	--cream: #fcf5e8;
+	--transparent-cream: rgba(255,242,219,0.5019607843137255);
+	--dark-cream: #ddd5c3;
+	--light-cream: #fcf5e8;
+	--purple: #7971fb;
+	--light-purple: #ebe9fe;
+	--blue: #739CBD;
+	--light-blue: #e4f3ff;
+	--dark-blue: #1596ff;
+	--green: #7EBA28;
+	--light-green: #f0ffda;
+	--yellow: #FDB631;
+    --orange: #E67E22;
+	--light-yellow: #fff7e8;
+	--indigo: #7e73ff;
+	--light-indigo: #eceaff;
+	--plyr-color-main: #fd1015;
+	--box-shadow: 0 15px 35px rgba(126,87,88,0.1),0 5px 15px rgba(0,0,0,0.07);
+	--light-box-shadow: 0 0px 0px rgba(126,87,88,0.1),0 8px 10px rgba(0,0,0,0.07);
+	--linear-gradient: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.4) 70%);
+	--linear-gradient-light: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.3) 90%);
+	--linear-gradient-header: linear-gradient(180deg,rgba(19,19,19,0.85),rgba(0,0,0,0.85));
+	--linear-bottom-gradient: linear-gradient(180deg,transparent,rgba(0,0,0,0.3) 80%);
+	--light-linear-gradient-header: linear-gradient(38deg,rgba(0,0,0,0.5) 28%,transparent);
+}

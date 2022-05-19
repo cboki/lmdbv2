@@ -1,11 +1,9 @@
-// Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-
-// Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
-
-// To use a font file (.woff) uncomment following lines
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+// Local fonts (uncomment following lines)
 // @font-face {
 //   font-family: "Font Name";
 //   src: font-url('FontFile.eot');
@@ -14,3 +12,18 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+// Font-size and line-height
+:root {
+	--main-title: 2.6em;
+	--medium-title: 1.8em;
+	--small-title: 26px;
+	--big-paragraph: 1.1em;
+	--medium-paragraph: 1.1em;
+	--medium-link: 16px;
+	--small-paragraph: 0.9em;
+	--big-title: 40px;
+	--extra-small-paragraph: 12px;
+	--title: "Playfair Display", "Helvetica", serif;
+	--content: "Open Sans", "Helvetica", sans-serif;
+}

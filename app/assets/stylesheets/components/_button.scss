@@ -1,0 +1,49 @@
+.cta {
+    font-family: var(--content);
+    font-variation-settings: "wght" 700;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 95px;
+    min-height: 64px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+
+.cta-primary {
+    background-color: var(--red);
+    color: #fff;
+    border-color: var(--red);
+    box-shadow: 0 2px 14px rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.cta-secondary {
+    background-color: #fff;
+    color: var(--red);
+    border-color: #fff;
+    box-shadow: 0 2px 14px rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+.cta-inactive {
+    background-color: #fff;
+    color: var(--light-black);
+    border: solid 1px;
+    border-color: var(light-black);
+    pointer-events: none;
+    cursor: default;
+}
+
+.cta, .cta-primary, .cta-secondary, .cta-inactive {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 900px) {
+    .cta-big {
+        width: 32%;
+        margin: 0 auto;
+    }
+}

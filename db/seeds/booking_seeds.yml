@@ -1,0 +1,254 @@
+- start_time: "2021-10-09T14:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 2
+  bags:
+    - 6
+- start_time: "2021-10-09T14:30:00+00:00"
+  contact: 2
+  nb_players: 6
+  game: 2
+  bags:
+    - 7
+- start_time: "2021-10-09T15:00:00+00:00"
+  contact: 1
+  nb_players: 3
+  game: 2
+  bags:
+    - 8
+- start_time: "2021-10-09T17:00:00+00:00"
+  contact: 2
+  nb_players: 3
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-09T17:00:00+00:00"
+  contact: 1
+  nb_players: 6
+  game: 2
+  bags:
+    - 9
+- start_time: "2021-10-10T10:00:00+00:00"
+  contact: 2
+  nb_players: 3
+  game: 2
+  bags:
+    - 6
+- start_time: "2021-10-10T14:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-10T14:00:00+00:00"
+  contact: 2
+  nb_players: 5
+  game: 2
+  bags:
+    - 7
+- start_time: "2021-10-10T15:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 2
+- start_time: "2021-10-10T16:00:00+00:00"
+  contact: 2
+  nb_players: 8
+  game: 2
+  bags:
+    - 8
+- start_time: "2021-10-10T18:00:00+00:00"
+  contact: 1
+  nb_players: 6
+  game: 2
+  bags:
+    - 9
+    - 10
+- start_time: "2021-10-11T09:30:00+00:00"
+  contact: 2
+  nb_players: 2
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-11T11:00:00+00:00"
+  contact: 1
+  nb_players: 5
+  game: 1
+  bags:
+    - 2
+- start_time: "2021-10-11T11:30:00+00:00"
+  contact: 2
+  nb_players: 2
+  game: 1
+  bags:
+    - 3
+- start_time: "2021-10-11T14:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 4
+- start_time: "2021-10-11T14:30:00+00:00"
+  contact: 2
+  nb_players: 6
+  game: 2
+  bags:
+    - 6
+- start_time: "2021-10-11T15:00:00+00:00"
+  contact: 1
+  nb_players: 3
+  game: 2
+  bags:
+    - 7
+- start_time: "2021-10-11T15:00:00+00:00"
+  contact: 2
+  nb_players: 6
+  game: 2
+  bags:
+    - 8
+- start_time: "2021-10-11T16:00:00+00:00"
+  contact: 1
+  nb_players: 5
+  game: 2
+  bags:
+    - 9
+- start_time: "2021-10-11T17:30:00+00:00"
+  contact: 2
+  nb_players: 4
+  game: 2
+  bags:
+    - 10
+- start_time: "2021-10-12T10:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-12T10:30:00+00:00"
+  contact: 2
+  nb_players: 2
+  game: 1
+  bags:
+    - 2
+- start_time: "2021-10-12T11:00:00+00:00"
+  contact: 1
+  nb_players: 6
+  game: 1
+  bags:
+    - 3
+- start_time: "2021-10-12T11:00:00+00:00"
+  contact: 2
+  nb_players: 2
+  game: 2
+  bags:
+    - 6
+- start_time: "2021-10-12T14:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 4
+- start_time: "2021-10-12T14:30:00+00:00"
+  contact: 2
+  nb_players: 6
+  game: 2
+  bags:
+    - 7
+- start_time: "2021-10-12T15:00:00+00:00"
+  contact: 1
+  nb_players: 3
+  game: 1
+  bags:
+    - 5
+- start_time: "2021-10-12T18:30:00+00:00"
+  contact: 2
+  nb_players: 3
+  game: 2
+  bags:
+    - 8
+- start_time: "2021-10-13T10:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-13T10:00:00+00:00"
+  contact: 2
+  nb_players: 10
+  game: 2
+  bags:
+    - 6
+    - 7
+- start_time: "2021-10-13T10:00:00+00:00"
+  contact: 1
+  nb_players: 3
+  game: 2
+  bags:
+    - 8
+- start_time: "2021-10-13T14:00:00+00:00"
+  contact: 2
+  nb_players: 3
+  game: 1
+  bags:
+    - 2
+- start_time: "2021-10-13T15:00:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 2
+  bags:
+    - 9
+- start_time: "2021-10-13T17:00:00+00:00"
+  contact: 2
+  nb_players: 4
+  game: 1
+  bags:
+    - 3
+- start_time: "2021-10-14T10:00:00+00:00"
+  contact: 1
+  nb_players: 6
+  game: 1
+  bags:
+    - 1
+- start_time: "2021-10-14T10:00:00+00:00"
+  contact: 2
+  nb_players: 5
+  game: 2
+  bags:
+    - 6
+- start_time: "2021-10-14T13:00:00+00:00"
+  contact: 1
+  nb_players: 5
+  game: 2
+  bags:
+    - 7
+- start_time: "2021-10-14T15:00:00+00:00"
+  contact: 2
+  nb_players: 4
+  game: 1
+  bags:
+    - 2
+- start_time: "2021-10-14T15:30:00+00:00"
+  contact: 1
+  nb_players: 5
+  game: 1
+  bags:
+    - 3
+- start_time: "2021-10-14T17:00:00+00:00"
+  contact: 2
+  nb_players: 4
+  game: 1
+  bags:
+    - 4
+- start_time: "2021-10-14T17:30:00+00:00"
+  contact: 1
+  nb_players: 4
+  game: 1
+  bags:
+    - 5
+- start_time: "2021-10-14T18:00:00+00:00"
+  contact: 1
+  nb_players: 2
+  game: 1
+  bags:
+    - 1

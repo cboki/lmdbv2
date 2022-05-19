@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <div class="legacy-form">
+        <%= simple_form_for @contact do |f| %>
+            <strong>C'est presque <mark class="highlighted highlighted-red">terminé !</mark></strong>
+            <p class="sub-title">Dernière étape avant de pouvoir jouer à notre jeu <em><%= @game.name %></em>, le <%= @start_time[:day] %> à <%= @start_time[:hour] %> avec vos <%= @nb_players %> accolytes : laissez-nous vos coordonnées pour que l'on puisse vous envoyer toutes les informations utiles.</p>
+            <%= f.input :email, label: 'Email' %>
+            <%= f.input :telephone, label: 'Téléphone' %>
+            <%= f.button :submit, 'Confirmer ma réservation', class:"cta cta-big cta-primary" %>
+        <% end %>
+    </div>
+</div>

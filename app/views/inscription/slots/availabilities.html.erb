@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <div class="legacy-form">
+    <strong>Voici les créneaux libres pour </br><mark class="highlighted highlighted-red"><%= @game.name %></mark></strong>
+    <p class="sub-title">Nombre d'enquêteurs : <%= @nb_players %></p>
+    <%= calendar(number_of_days: 1, events: @slots) do |date, slots| %>
+      <% slots.each do |slot| %>
+        <div>
+          <% if slot.free?(@nb_players) %>
+            <%= link_to slot.hour, new_inscription_booking_contact_path(start_time: slot.start_time), class:"cta cta-primary cta-big" %>
+          <% else %>
+            <span class="cta cta-inactive cta-big">-</span>
+          <% end %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+footer {
+    background-color: var(--black);
+    background-color: #333333;
+    padding: 80px 0;
+    a, p, span, em {
+        color: #fff;
+    }
+}
+
+.footer-section {
+    padding: 0 20px 60px;
+    span {
+        display: block;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-size: var(--small-title);
+        font-family: var(--title);
+        font-variation-settings: "wght" 700;
+    }
+    ul > li {
+        margin-bottom: 16px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

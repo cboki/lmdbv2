@@ -1,0 +1,27 @@
+* ul {
+    margin: 0;
+    padding: 0;
+}
+
+li, p {
+    line-height: 1.6em;
+    font-size: 1.1em;
+    font-size: var(--medium-paragraph);
+}
+
+* li, * p {
+    color: #4b4b4b;
+    color: var(--grey);
+}
+
+* ul li {
+    list-style-type: none;
+}
+
+.bullet-point {
+    padding: 0 1em;
+    margin-bottom: 30px;
+    li {
+        list-style: inside;
+    }
+}
