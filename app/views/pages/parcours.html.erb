@@ -42,5 +42,53 @@
                 </div>
             </div>
         </div>
+        <div id="bourges-game-board">
+            <h2>Vous ne savez pas <mark class="highlighted highlighted-red">quoi faire à Bourges ?</mark></h2>
+            <p class="sub-title">Nous avons l'activité qu'il vous faut. Culturels, ludiques et sans écran... nos jeux de piste ont décidément tout pour (vous) plaire.</p>
+            <div class="rankings">
+                <div class="data">
+                    <div class="half">
+                        <ul class="datatron">
+                            <li class="datatron-item">
+                                <span class="datatron-item-title-large">
+                                    3 à 6
+                                    <i>joueurs par équipe</i>
+                                </span>
+                                <p class="datatron-item-content">Nous vous accueillons par équipes de 3 à 6 joueurs. Mais comme dit l'adage "Plus on est de fou, plus on rit". Vous pouvez donc venir nombreux car nous pouvons accueillir jusqu'à 10 équipes en même temps.</p>
+                            </li>
+                            <li class="datatron-item">
+                                <span class="datatron-item-title-large">
+                                    2
+                                    <i>heures de jeu</i>
+                                </span>
+                                <p class="datatron-item-content">Comme dans tout bon escape game qui se respecte, votre mission est limitée dans le temps. Nous vous donnons 2 heures pour la réaliser. <em>À vos marques ! Prêts ? Partez !</em></p>
+                            </li>
+                            <li class="datatron-item">
+                                <span class="datatron-item-title-large">
+                                    2/4
+                                    <i>Niveau de difficulté</i>
+                                </span>
+                                <p class="datatron-item-content">Les énigmes ont été concues pour n'être ni trop facile, ni trop difficile. En réalité, il suffit de savoir lire, se laisser guider et avoir un peu d'imagination. A vous de jouer.</p>
+                            </li>
+                            <li class="datatron-item">
+                                <span class="datatron-item-title-large">
+                                    2 - 3 km
+                                    <i>de distance</i>
+                                </span>
+                                <p class="datatron-item-content">Une balade accessible au plus grand nombre. Attention cependant, le centre-ville de Bourges est souvent pavé et assez valonné.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="half">
+                        <%= image_tag "escape-game-bourges-mysteres-patrimoine-cathedrale-agence-evenementielle", class:"datatron-img", alt:"Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+<section class="wrapper wrapper-white">
+    <h2>Réservez <mark class="highlighted highlighted-red">dès maintenant</mark></h2>
+    <p class="sub-title">L'aventure vous attend. Réunissez vos meilleurs amis et lancez vous dans l'aventure ! Il ne manque plus que vous pour briller.</p>
+    <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-big cta-primary", role:"button" %>
 </section>
