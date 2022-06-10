@@ -132,4 +132,10 @@
     .price-cards {
         display: flex;
     }
+
+    .price-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2em;
+    }
 }
