@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="half">
-        <%= image_tag "homepage-header.jpg", class:"header-img", alt:"Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
+        <%= image_tag "homepage-header.jpg", class:"header-img", alt:"Une équipe au départ du jeu devant la statue de Jacques Coeur. Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
     </div>
 </header>
 <section class="full-wrapper-red datatron-home">
@@ -25,7 +25,7 @@
                     </div>
                     <div class="game-pictures-grid">
                         <% (1..4).each do |x| %>
-                            <%= image_tag "escape-game-bourges-loisirs-famille-amis-activite-plein-air-evjf-patrimoine-#{x}" %>    
+                            <%= image_tag "escape-game-bourges-loisirs-famille-amis-activite-plein-air-evjf-patrimoine-#{x}", alt: "Photo de joueurs sur les jeux de pistes Les Mystères de Bourges dans les rues de la ville" %>    
                         <% end %>   
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="game-pictures-grid">
                         <% (1..4).each do |x| %>
-                            <%= image_tag "seminaire-bourges-team-building-entreprise-vin-centre-loire-cohesion-equipe-#{x}" %>    
+                            <%= image_tag "seminaire-bourges-team-building-entreprise-vin-centre-loire-cohesion-equipe-#{x}", alt: "Photo de joueurs et des éléments du jeu Wine Gaming, escape game mobile autour du vin pour séminaire et entreprises à Bourges et en Région Centre" %>    
                         <% end %>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         </ul>
                     </div>
                     <div class="half">
-                        <%= image_tag "escape-game-bourges-mysteres-patrimoine-cathedrale-agence-evenementielle", class:"datatron-img", alt:"Les mystères de Bourges, la meilleure activité de plein air à Bourges - Un escape game jeu de piste inédit !" %>
+                        <%= image_tag "escape-game-bourges-mysteres-patrimoine-cathedrale-agence-evenementielle", class:"datatron-img", alt:"Vue aérienne de la Cathédrale Saint-Etienne de Bourges et du jardin de l'archevêché en automne." %>
                     </div>
                 </div>
             </div>
@@ -93,42 +93,42 @@
     <p class="sub-title">En quête de nouvelles activités ludiques ? <%= link_to 'Nos parcours', parcours_path %> sont destinés à des équipes de 3 à 6 joueurs. Tout le monde peut jouer de 7 à 77 ans. Inutile de connaître la ville de Bourges : nos escapes games et parcours-jeux font appel à votre esprit de déduction, de logique et votre sens de l'observation.</p>
     <ul class="cards-wrapper">
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-gamers.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-gamers.jpg", class:"card-cover-image", alt: "Vue de dessus de joueurs avec le matériel du jeu La grande HisTory, escape game de plein air à Bourges autour de la vie de Geoffroy Tory" %>
             <div class="card-content">
                 <h3>Fan de jeux ?</h3>
                 <p class="sub-title">Venez battre des records de résolution d'aventure ! Relevez les défis le plus vite possible, courrez pour casser le chronomètre et remporter la victoire plus vite que quiconque ne l'aura fait avant vous. Ou bien venez lancer une partie avec des amis et passez un bon moment ensemble.</p>
             </div>
         </li>
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-touristes-tourisme-passage.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-touristes-tourisme-passage.jpg", class:"card-cover-image", alt: "Vue de dos de 3 joueurs, chacun porte un sac de jeu de La grande HisTory, parcours jeu de piste façon escape game à Bourges autour de la vie de Geoffroy Tory" %>
             <div class="card-content">
                 <h3>Touristes</h3>
                 <p class="sub-title">Découvrez les richesses cachées de notre patrimoine autrement qu'avec une visite guidée classique. Epargnez-vous le mécontentement de vos ados et innovez sur les activités de famille en proposant notre escape game outdoor. Vous allez épatez tout le monde et le meilleur souvenir du passage à Bourges, c'est vous qui l'aurez proposé.</p>
             </div>
         </li>
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-berruyers.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-berruyers.jpg", class:"card-cover-image", alt: "Vue contre-plongée de Sophie et Clément Bouakkaz, cofondateurs des jeux de piste Les Mystères de Bourges, escape game urbain à Bourges autour du patrimoine de la ville" %>
             <div class="card-content">
                 <h3>Berruyers (comme nous)</h3>
                 <p class="sub-title">Venez dénicher les endroits cachés que vous n'avez jamais vu et que vous ne soupçonnez pas dans votre ville. Avouez-le, vous vivez ici depuis longtemps et pourtant il y a encore des rues qui vous sont totalement inconnues. On fait le pari de vous faire découvrir au moins une chose que vous ne saviez pas encore sur le ville. Chiche ?</p>
             </div>
         </li>
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-evjf.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-evjf.jpg", class:"card-cover-image", alt:"Une future mariée a participé à l'escape game en plein air Les Mystères de Bourges pour son enterrement de vie de jeune fille EVJF à Bourges." %>
             <div class="card-content">
                 <h3>Futur(e) marié(e)</h3>
                 <p class="sub-title"> Vous souhaitez organiser un enterrement de vie de jeune fille (le fameux EVJF) ou un enterrement de vie de garçon (le mythique EVG) ? Nos parcours sont une bonne idée de sortie pour réunir vos plus proches amis et les témoins du mariage, à Bourges. Et en plus qui dit Jacques Coeur, dit Coeur. Coeur = Amour. Amour = Mariage. CQFD.</p>
             </div>
         </li>
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-seminaire-entreprise-professionelle-collegues.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-seminaire-entreprise-professionelle-collegues.jpg", class:"card-cover-image", alt: "Groupe de joueurs pour la grande his'Tory, jeu multijoueur et multi-équipe, idéal pour les entreprises et les professionnels pour les séminaires et les team building à Bourges." %>
             <div class="card-content">
                 <h3>Patron ou collègue</h3>
                 <p class="sub-title">C'est le moment de renforcer les liens avec votre équipe ou vos collègues. On ne choisit pas toujours ses collègues mais on peut facilement passer un bon moment ensemble. Il n'y a pas que le travail dans la vie. Et nos jeux vont vous le prouver.</p>
             </div>
         </li>
         <li class="card-container">
-            <%= image_tag "escape-game-bourges-loisirs-patrimoine-etudiants.jpg", class:"card-cover-image" %>
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-etudiants.jpg", class:"card-cover-image", alt: "Groupe de jeunes parcourant les vieilles rues du centre-ville historique de Bourges à la recherche des indices cachés dans le patrimoine pour le jeu de piste A Vaillaint coeur, Les Mystères de Bourges." %>
             <div class="card-content">
                 <h3>Étudiants</h3>
                 <p class="sub-title">Vous êtes étudiants et vous pensez qu'il n'y a rien à faire à Bourges pour s'amuser ? Eh bien c'est raté. Nous vous mettons au défi de venir jouer avec nous et de casser les records au chronomètre. Un bon moyen d'affuter son corp et son esprit et de découvrir sa nouvelle ville d'adoption. Vos potes seront jaloux de ne pas avoir eu la même idée.</p>
