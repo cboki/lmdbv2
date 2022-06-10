@@ -8,8 +8,8 @@ Rails.application.routes.draw do
 
   #Pages
   get "/parcours", to: "pages#parcours", as: :parcours
-  get "/parcours/concept", to: "pages#concept", as: :concept
   get "/parcours/tarifs", to: "pages#tarifs", as: :tarifs
+  get "/contact", to: "pages#contact", as: :contact
   get "/conditions-generales-de-ventes", to: "pages#cgu", as: :cgu
   get "/mentions-legales", to: "pages#mentions_legales", as: :mentions_legales
   get "/politique-confidentialite", to: "pages#politique_confidentialite", as: :politique_confidentialite

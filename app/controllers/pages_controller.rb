@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :parcours, :concept, :tarifs, :cgu, :mentions_legales, :politique_confidentialite ]
+  skip_before_action :authenticate_user!, only: [ :home, :parcours, :tarifs, :contact, :cgu, :mentions_legales, :politique_confidentialite ]
 
   def home
   end
@@ -7,10 +7,10 @@ class PagesController < ApplicationController
   def parcours
   end
 
-  def concept
+  def tarifs
   end
 
-  def tarifs
+  def contact
   end
 
   def cgu
