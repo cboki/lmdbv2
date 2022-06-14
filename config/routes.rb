@@ -6,6 +6,9 @@ Rails.application.routes.draw do
     resources :booking_contacts, only: [ :new, :create ]
   end
 
+  #Nuits lumières
+  get "/nuitslumiere", to: "pages#nuitslumiere", as: :nuitslumiere
+  
   #Pages
   get "/parcours", to: "pages#parcours", as: :parcours
   get "/parcours/tarifs", to: "pages#tarifs", as: :tarifs
