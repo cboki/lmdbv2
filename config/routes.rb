@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   #Pages
   get "/parcours", to: "pages#parcours", as: :parcours
   get "/parcours/tarifs", to: "pages#tarifs", as: :tarifs
+  get "/reservation", to: "pages#reservation", as: :reservation
   get "/contact", to: "pages#contact", as: :contact
   get "/faq", to: "pages#faq", as: :faq
   get "/conditions-generales-de-ventes", to: "pages#cgu", as: :cgu
