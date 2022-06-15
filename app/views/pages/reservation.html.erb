@@ -1,0 +1,39 @@
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Vous voici tout près d'une <mark class="highlighted highlighted-red">nouvelle aventure</mark></h1>
+        <p class="sub-title">
+            Pour réserver, constituez votre équipe et répondez à ce petit questionnaire pour nous contacter. Nous vous répondons très rapidement !
+        </p>
+    </div>
+    <div class="half">
+        <div class="legacy-form">
+            <form id="reservation-form" action="https://formspree.io/contact@lesmysteresdebourges.fr" method="POST" />
+                <div class="mb-3">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Jacques Coeur">
+                </div>
+                <div class="mb-3">
+                    <label for="telephone">Téléphone</label>
+                    <input type="text" class="form-control" id="telephone" name="telephone" placeholder="+33766684420" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="jacquescoeur@lesmysteresdebourges.fr" required>
+                </div>
+                <div class="mb-3" id="form-select">
+                    <label for="parcours">Parcours</label>
+                    <select name="parcours" required>
+                    <option value="jacquescoeur">A vaillant cœur ❤️</option>
+                    <option value="geoffroytory">La grande his'Tory 📖</option>
+                    <option value="boncadeau">Bon cadeau 💌</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="message">Message</label>
+                    <textarea  class="form-control" id="message" name="message">Je souhaite jouer ce samedi avec tous mes amis ... (Préciser la date, l'heure et le nombre de joueurs)</textarea>
+                </div>
+                <button id="sendDataFormButton" type="submit" class="cta cta-primary">C'est parti</button>
+            </form>
+        </div>
+    </div>
+</header>

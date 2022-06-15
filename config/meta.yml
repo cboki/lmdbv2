@@ -1,0 +1,5 @@
+meta_product_name: "Les Mystères de Bourges"
+meta_title: "Les Mystères de Bourges - Escape game urbain de plein air"
+meta_description: "Escape game en extérieur et plein air. Résolvez des énigmes et (re)découvrez le patrimoine local de Bourges de façon insolite, en famille ou entre amis."
+meta_image: "les_mysteres_de_bourges_escape_game_exterieur_bourges_open_graph_image.jpg" # should exist in `app/assets/images/`
+twitter_account: "@c_boki"   # required for Twitter Cards

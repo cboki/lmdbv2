@@ -5,7 +5,7 @@
             Redécouvrez le patrimoine de la ville et de sa région grâce à nos jeux de piste uniques et des activités de cohésion originales.
         </p>
         <div class="ctas-container">
-            <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-primary", role:"button" %>
+            <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-primary", role:"button" %>
             <%= link_to 'Découvrez nos jeux', root_path(anchor: "explore-games"), class: "cta cta-secondary", role:"button" %>
         </div>
     </div>
@@ -139,7 +139,7 @@
 <section class="full-wrapper-red">
     <div class="wrapper wrapper-red">
         <h2>Infos <mark class="highlighted highlighted-red">pratiques</mark></h2>
-        <p class="sub-title"><em>Les mystères de Bourges</em> vous accueillent uniquement <%= link_to 'sur réservation', new_inscription_booking_info_path %>.</p>
+        <p class="sub-title"><em>Les mystères de Bourges</em> vous accueillent uniquement <%= link_to 'sur réservation', reservation_path %>.</p>
         <p class="sub-title"><strong>Horaires :</strong> Nous jouons du lundi au dimanche de 10h à 17h, toute l'année.</p>
         <p class="sub-title">Nos jeux de piste sont situés en <strong>centre-ville de Bourges</strong>. Pour y accéder, vous pouvez venir :</p>
         <ul class="bullet-point">
@@ -148,6 +148,6 @@
             <li>en utilisant la navette gratuite du centre ville.</li>
         </ul>
         <p class="sub-title"><strong>Retrouvez-nous</strong> et contactez-nous aussi sur <a href="http://www.facebook.com/lesmysteresdebourges">Facebook</a> et <a href="http://www.instagram.com/lesmysteresdebourges">Instagram</a> !</p>
-        <%= link_to 'Réservez dès maintenant', new_inscription_booking_info_path, class: "cta cta-big cta-primary", role:"button" %>
+        <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-big cta-primary", role:"button" %>
     </div>
 </section>

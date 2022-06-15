@@ -1,0 +1,58 @@
+principe:
+  - question: Comment se déroule une partie ? Quel est le but du jeu ?
+    reponse: Au début de la partie, vous rencontrerez l’animateur des Mystères de Bourges qui vous remettra le kit de jeu. Votre mission consistera à résoudre une enquête en temps limité. Pour cela, vous devrez vous promener dans les rues du centre-ville de Bourges afin de collecter des indices. Ceux-ci vous permettront de résoudre des énigmes pour tenter d´ouvrir le coffre final !
+
+  - question: Combien de temps dure une partie ?
+    reponse: Nos parcours « A vaillant cœur » et "La grande his'Tory" doivent être résolus en moins de 2 heures. Il faut compter 2h15-2h30 avec les temps de briefing et débriefing.
+
+  - question: A partir de quel âge peut-on jouer ?
+    reponse: Nos jeux de piste sont conçus pour un public adulte et adolescents. Les enfants peuvent vous accompagner dans cette aventure. Ils prendront plaisir à se promener et à participer. N'hésitez pas à les impliquer dans la résolution des énigmes et dans la découverte des objets du sac. Les parcours sont accessibles au plus grand nombre, il suffit de pouvoir marcher 3 km. En revanche, sachez que notre centre historique est composé de rues pavées (c’est ce qui fait son charme) mais cela peut-être parfois peu confortable ! Equipez-vous de bonnes chaussures.
+
+  - question: Quand venir jouer ?
+    reponse: Sur les créneaux horaires proposés par Les mystères de Bourges. A savoir... tous les jours ! Les horaires peuvent varier au cours de l'année en fonction du coucher du soleil. N'hésitez pas à nous contacter pour connaître les disponibilités.
+
+  - question: Combien de participants composent une équipe ?
+    reponse: Idéalement, une équipe est composée de 3 à 6 joueurs. Si vous souhaitez inscrire un nombre plus important de joueurs, des équipes seront constituées au début de la partie (selon les disponibilités des kits de jeu). Pour une équipe de 2 joueurs sur le parcours A vaillant Coeur, le tarif est de 25 euros par joueur.
+
+  - question: Nous sommes plus de six, comment jouer ?
+    reponse: Vous pouvez venir affronter 20 membres de votre famille, 30 de vos amis ou 60 de vos collègues. En effet, nous pouvons accueillir jusqu'à 60 joueurs en simultané sur la Grande His'Tory !
+
+  - question: Faut-il connaître la ville ?
+    reponse: Berruyers ou touristes, tout le monde est capable de résoudre la mission. Nul besoin de connaitre les lieux avant. Vous (re)découvrirez Bourges quoi qu'il arrive !
+
+  - question: Comment se rendre au point de départ ?
+    reponse: Le point de rendez-vous vous sera communiqué lors de la réservation. Il est situé dans le centre-ville de Bourges. Il est facile d´accès (à pied, à vélo, en bus, en navette). En voiture, nombreuses possibilités de stationnement payant jusqu’à 17h et gratuit (Place Séraucourt, Cours Anatole France).
+
+  - question: Que contient le kit de jeu ?
+    reponse: Le kit de jeu vous est remis par l´animateur en début de partie. Il se présente sous la forme d´un sac contenant des objets-mystère dont l´utilité sera révélée pendant la partie, d’un livret d´énigmes, d’un stylo et d’une carte de la zone de jeu.
+
+  - question: Que faut-il emmener ?
+    reponse: Préparez votre flair de détective et votre matière grise ! De préférence de bonnes chaussures, des vêtements adaptés aux conditions climatiques et une bouteille d’eau... Et n’oubliez pas votre bonne humeur ! Nul autre besoin, on vous expliquera tout.
+
+  - question: Les énigmes sont-elles difficiles à résoudre ?
+    reponse: Les énigmes sont conçues pour un public adulte et enfants à partir de 8 ans. Le succès repose sur la collaboration au sein de l´équipe. Il est plus facile de réussir le parcours à 3 ou 4 personnes qu'en couple !
+
+  - question: Que se passe-t-il si on est bloqué pendant la partie ?
+    reponse: À tout moment pendant la partie, vous pouvez solliciter notre aide par téléphone ou sms grâce au numéro présent sur le livret d’énigmes qui vous est remis avec le kit de jeu. Mais nous ne vous donnerons pas la réponse tout de suite, seulement des indices pour vous mettre sur la voie.
+
+  - question: Est-on amené à jouer contre d´autres équipes ?
+    reponse: Pour une expérience optimale, nous limitons le nombre de participants par créneau horaire. Si vous souhaitez privatiser l´évènement, pensez à nous le signaler lors de la réservation. Une majoration du tarif par personne pourra être appliquée en cas de personnalisation du jeu pour une occasion particulière.
+
+  - question: Je peux venir avec mon chien ?
+    reponse: Évidemment, nos amis à quatre pattes sont les bienvenus sur nos parcours !
+
+reservation:
+  - question: Comment réserver ?
+    reponse: La réservation se fait sur notre site internet, par mail, par téléphone ou via nos réseaux sociaux. Un mail de confirmation vous est alors adressé pour confirmer votre réservation. Le paiement s'effectuera en espèces ou par carte bancaire au point de départ du parcours. Nous n'acceptons pas les chèques.
+
+  - question: Quels sont les moyens de paiement ? 
+    reponse: Le paiement s'effectuera en espèces ou par carte bancaire, à la fin de votre expérience. Nous n'acceptons pas les chèques, ni les chèques vacances, et encore moins les écus d’or.
+
+  - question: Peut-on modifier une réservation ou annuler une réservation ?
+    reponse: Oui c’est possible, il suffit de nous prévenir. Nous espérons pouvoir vous proposer une autre date qui vous conviendrait en fonction des disponibilités. Pour plus d´informations, vous pouvez consulter nos conditions générales de vente.
+
+  - question: Un joueur de dernière minute peut-il rejoindre notre équipe déjà constituée pour jouer ? 
+    reponse: Un joueur peut tout à fait rejoindre une équipe ayant déjà réservé. Alors il faudra seulement régler sa participation en espèces au point de départ de l’enquête. Si un joueur ne peut pas venir, vous pouvez évidemment lui trouver un remplaçant.
+
+  - question: En cas de mauvais temps le jour J, peut-on annuler la partie ?
+    reponse: En cas d’intempéries appelez-nous, nous ferons de notre mieux pour vous proposer une solution.
