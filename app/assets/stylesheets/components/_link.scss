@@ -6,7 +6,6 @@
 .cta-link {
   font-family: var(--title);
   font-variation-settings: "wght" 700;
-  margin-top: 16px;
   font-size: 16px;
   font-size: var(--medium-link);
   cursor: pointer;
@@ -14,4 +13,8 @@
 
 .cta-link, .cta-link:hover {
   color: var(--red);
+}
+
+.cta-blue-link, .cta-blue-link:hover {
+  color: var(--night-blue);
 }

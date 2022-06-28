@@ -9,7 +9,7 @@
         </p>
         <div class="ctas-container">
             <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-primary", role:"button" %>
-            <%= link_to 'Notre balade audio Nuits Lumière', nuitslumiere_path, class: "cta cta-secondary", role:"button" %>
+            <%= link_to 'Podcast Nuits Lumière', nuitslumiere_path, class: "cta cta-secondary", role:"button" %>
         </div>
     </div>
     <div class="half">
@@ -25,6 +25,7 @@
                     <div class="game-details">
                         <h3>🎒 Escape game en plein air</h3>
                         <p>Partez à la découverte du patrimoine historique de la ville de Bourges avec nos sacs mystérieux. Passez un moment agréable entre amis, avec réflexion et divertissement garantis !</p>
+                        <%= link_to "👉 en savoir plus sur les parcours", parcours_path, class: "cta-link" %>
                     </div>
                     <div class="game-pictures-grid">
                         <% (1..4).each do |x| %>

@@ -1,0 +1,79 @@
+<% content_for :meta_title, "Parcours 'A vaillant coeur' | #{DEFAULT_META["meta_title"]}" %>
+<% content_for :meta_description, "Redécouvrez l'histoire de Jacques Coeur et d'une partie de la ville de Bourges avec notre escape game urbain en plein air." %>
+
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Notre premier parcours d'escape game de plein air <mark class="highlighted highlighted-red">A vaillant cœur</mark></h1>
+        <p class="sub-title">
+            Découvrez notre premier parcours et partez à la recherche du trésor de <em>Messire Jacques</em>
+        </p>
+        <div class="ctas-container">
+            <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-primary", role:"button" %>
+        </div>
+    </div>
+    <div class="half">
+        <%= image_tag "a-vaillant-coeur-jacques-bourges-escape-game-outdoor-plein-air-activite-loisirs.jpg", class:"header-img", alt:"Joueuse avec le livre du jeu A vaillant coeur, notre premier parcours escape game en plein air à Bourges" %>
+    </div>
+</header>
+<section class="full-wrapper-red datatron-home">
+    <div class="wrapper wrapper-red">
+        <h2>Qui est <mark class="highlighted highlighted-red">Jacques Cœur</mark> ?</h2>
+        <p class="sub-title">Jacques Cœur est un personnage incontournable du paysage local. Né à Bourges, vers 1400, il devient marchand français, négociant, banquier et armateur. Il fut le premier français à établir et entretenir des relations commerciales suivies avec les pays du Levant. C’est une ascension fulgurante : il amasse une fortune considérable. Cependant, sa réussite éclatante l’amène à la disgrâce : en invoquant diverses accusations, ses rivaux et ses nombreux débiteurs, dont le roi, chercheront à provoquer sa chute.</p>
+        <h2>Votre <mark class="highlighted highlighted-red">mission</mark></h2>
+        <p class="sub-title">Nous sommes le 30 juillet 1451. Jacques Cœur se sait menacé. Le lendemain, le Grand Conseil du Roi le condamne pour le crime de lèse-majesté. Malin et rusé, il aurait caché une partie de sa fortune peu avant son arrestation. La clé de la salle des trésors du Palais Jacques Cœur est à ce jour introuvable. Saurez-vous percer le mystère et retrouver la fortune de Jacques Cœur ?</p>
+        <p class="sub-title">À l’aide d’un carnet de route et d’une carte, arpentez la ville de Bourges grâce à notre aventure et percez les mystères de notre étrange besace. Décodez, observez, ouvrez les yeux et arpentez la ville à la recherche de véritables indices. Découvrez les vieux quartiers du centre-ville comme vous ne les avez jamais vus ! En équipe, résolvez des énigmes, guettez le temps imparti et venez vivre une aventure insolite et originale. Vous et votre équipe êtes les héros de cette histoire surprenante !</p>
+        <p class="sub-title">Serez-vous à la hauteur du défi ?</p>
+        <%= image_tag "activite-bourges-plein-air-escape-game-kit-jeu-tourisme-patrimoine-banner", class:"landscape-banner-image", alt:"Kit de jeu pour chasse au trésor à Bourges, sous forme d'escape game en plein air" %>
+    </div>
+</section>
+<section class="wrapper wrapper-white">
+    <h2>Notre <mark class="highlighted highlighted-red">parcours</mark></h2>
+    <ul class="cards-wrapper">
+        <li class="card-container">
+            <%= image_tag "joueurs-equipe-famille-amis-touriste-jacques-coeur-jeu-activite-decouvrir-bourges.jpg", class:"card-cover-image", alt: "Equipe de joueuses pour un EVJF à Bourges avec l'aventure A vaillant coeur, chasse au trésor façon escape game pour découvrir le patrimoine de Bourges" %>
+            <div class="card-content">
+                <h3>Nombre de joueurs</h3>
+                <p class="sub-title">En couple avec 2 joueurs ou jusqu'à 20 personnes en multi-équipes. Nous pouvons faire jouer jusqu'à 5 équipes simultanément.</p>
+                <%= link_to "Connaître les tarifs", tarifs_path, class: "cta-link" %>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "palais-jacques-coeur-grand-maison-bourges-medieval.jpg", class:"card-cover-image", alt: "Vue arrière du palais Jacques Coeur à Bourges" %>
+            <div class="card-content">
+                <h3>Les lieux</h3>
+                <p class="sub-title">Au départ de la place Jacques Coeur, notre parcours vous mènera sur des lieux importants pour notre héros médiéval. Dépaysement immédiat garanti !</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "acces-centre-ville-bourges-velo-cargo-bus-voiture-parking.jpg", class:"card-cover-image", alt: "Sophie en vélo cargo rue Moyenne à Bourges près de la Poste" %>
+            <div class="card-content">
+                <h3>Accès</h3>
+                <p class="sub-title"><b>En voiture :</b> parking Séraucourt (gratuit), parking Hôtel Dieu, parking Nation, parking Juranville, parking Centre commercial Avaricum. <b>En bus :</b> Arrêts Nation ou Planchat.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "jeu-famille-enfants-parents-petits-grands-chasse-tresor-bourges.jpg", class:"card-cover-image", alt: "Famille qui part à la chasse au trésor de Jacques Coeur avec Les mystères de Bourges" %>
+            <div class="card-content">
+                <h3>Difficulté intermédiaire</h3>
+                <p class="sub-title">Le parcours est adapté à tout public, bien qu'ayant d'abord été conçu pour les adultes. Le jeu est idéal pour faire collaborer toutes les générations, de la sortie de la poussette jusqu'aux papys et mamies.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "distance-corde-duree-jeu-jacques-coeur-chasse-tresor-escape-game.jpg", class:"card-cover-image", alt: "Corde à noeuds sur les pavés de Bourges, patrimoine du centre-ville historique médieval." %>
+            <div class="card-content">
+                <h3>Durée & distance</h3>
+                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est d'environ 3 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "soleil-meteo-parcours-plein-air-activite-famille-tourisme-faire-bourges.jpg", class:"card-cover-image", alt: "Il fait chaud sur le parcours A vaillant coeur durant l'été à Bourges" %>
+            <div class="card-content">
+                <h3>Ensoleillement</h3>
+                <p class="sub-title">Le parcours possède un ensoleillement potentiellement élevé en cas de très forte chaleur.</p>
+            </div>
+        </li>
+    </ul>
+    <h2>Réservez <mark class="highlighted highlighted-red">dès maintenant</mark></h2>
+    <p class="sub-title">L'aventure vous attend. Réunissez vos meilleurs amis et lancez vous dans l'aventure ! Il ne manque plus que vous pour briller.</p>
+    <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-big cta-primary", role:"button" %>
+</section>

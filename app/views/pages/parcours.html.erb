@@ -1,7 +1,6 @@
 <% content_for :meta_title, "Nos escapes games urbains en extérieur | #{DEFAULT_META["meta_title"]}" %>
 <% content_for :meta_description, "Nous avons créé deux jeux de piste inédits en centre-ville de Bourges. Découvrez la ville sous un nouvel oeil tout en vous amusant en famille ou entre amis." %>
 
-
 <header class="wrapper header-mobile header-home">
     <div class="half">
         <h1>Découvrez nos jeux de piste façon <mark class="highlighted highlighted-red">escape game</mark></h1>
@@ -25,6 +24,7 @@
                     <div class="game-details">
                         <h3>❤️ A vaillant coeur </h3>
                         <p>Jacques Coeur est LE personnage historique local. C'est un incontournable de Bourges. Mais saurez-vous vous montrez digne de sa confiance pour l'aider à protéger sa fortune ?</p>
+                        <%= link_to "👉 tous les détails du parcours", a_vaillant_coeur_path, class: "cta-link" %>
                     </div>
                     <div class="game-pictures-grid">
                         <% [3, 5, 7, 6].each do |x| %>
@@ -59,6 +59,7 @@
                                     <i>joueurs par équipe</i>
                                 </span>
                                 <p class="datatron-item-content">Nous vous accueillons par équipes de 3 à 6 joueurs. Mais comme dit l'adage "Plus on est de fou, plus on rit". Vous pouvez donc venir nombreux car nous pouvons accueillir jusqu'à 10 équipes en même temps.</p>
+                                <%= link_to "Découvrir nos tarifs", tarifs_path, class: "cta-link" %>
                             </li>
                             <li class="datatron-item">
                                 <span class="datatron-item-title-large">
