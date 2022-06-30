@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get "/parcours", to: "pages#parcours", as: :parcours
   get "/parcours/tarifs", to: "pages#tarifs", as: :tarifs
   get "/parcours/a-vaillant-coeur", to: "pages#a_vaillant_coeur", as: :a_vaillant_coeur
+  get "/parcours/la-grande-history", to: "pages#la_grande_history", as: :la_grande_history
   get "/reservation", to: "pages#reservation", as: :reservation
   get "/contact", to: "pages#contact", as: :contact
   get "/faq", to: "pages#faq", as: :faq

@@ -1,0 +1,82 @@
+<% content_for :meta_title, "Parcours 'La grande hisTory' | #{DEFAULT_META["meta_title"]}" %>
+<% content_for :meta_description, "Notre deuxième escape game urbain vous emmènera sur les traces d'un illustre berruyer méconnu : Geoffroy Tory" %>
+
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Notre deuxième parcours d'escape game de plein air <mark class="highlighted highlighted-red">La grande his'Tory</mark></h1>
+        <p class="sub-title">
+            Découvrez notre second parcours et partez à la recherche du trésor de <em>Geoffroy Tory</em>
+        </p>
+        <div class="ctas-container">
+            <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-primary", role:"button" %>
+        </div>
+    </div>
+    <div class="half">
+        <%= image_tag "cover-activite-ideale-escape-game-bourges-exterieur-plein-air-tourisme.jpg", class:"header-img", alt:"Chasse au trésor à Bourges, l'activité idéale pour toute la famille en plein air." %>
+    </div>
+</header>
+<section class="full-wrapper-red datatron-home">
+    <div class="wrapper wrapper-red">
+        <h2>Qui est <mark class="highlighted highlighted-red">Geoffroy Tory</mark> ?</h2>
+        <p class="sub-title">Vous ne connaissez pas Geoffroy Tory ? C'est normal. Ce berruyer d'origine modeste est tombé dans l'oubli. Mais ses travaux sont restés et sont même utilisés quotidiennement par chacun d'entre nous. Voilà pourquoi, lorsque nous avons découvert que celui qui fût le premier homme nommé Imprimeur royal par François Ier était berruyer, nous avons décidé de lui consacrer notre deuxième parcours d'escape game urbain.</p>
+        <h2>Votre <mark class="highlighted highlighted-red">mission</mark></h2>
+        <p class="sub-title">Téléportés en 1532, Geoffroy Tory de Bourges vous met au défi de retrouver le trésor qu'il a caché. Plongez dans le monde du livre imprimé et de la typographie, laissez-vous guider par les lettres, ouvrez les yeux et déjouez les énigmes conçues par le grand Maître. Cette nouvelle activité en plein air vous mènera dans un des plus beaux quartiers de Bourges. Au cours d'une balade de 2 heures vous en apprendrez davantage sur l'entourage et l'œuvre de celui qui, il y a 500 ans, a révolutionné la langue française.</p>
+        <p class="sub-title">Découvrez des rues méconnues du centre-ville ancien de Bourges au cours d'un jeu de piste familial revisité.</p>
+        <p class="sub-title">Notre nouveau sac renferme de précieux outils afin de vous aider à mener à bien votre enquête. Des indispensables jusqu'aux objets conçus sur-mesure, ils font de notre nouveau jeu de piste un jeu unique en France (rien que ça) !</p>
+        <p class="sub-title">La grande his'Tory est conçue pour pouvoir recevoir jusqu'à 5 équipes de 6 joueurs simultanément. Venez jouer en famille, avec vos enfants. Venez jouer entre amis, pour vous retrouver ou à l'occasion d'un anniversaire. Venez jouer avec vos collègues, pour passer un bon moment ou pour ressouder votre équipe.</p>
+        <p class="sub-title">Maître Geoffroy Tory vous lance un défi et vous attend en centre-ville de Bourges. Êtes-vous prêts ?</p>
+        <%= image_tag "banner-geoffroy-tory-sac-escape-game-bourges-tresor-jeu-piste-chasse", class:"landscape-banner-image", alt:"Zoom sur une joueuse qui ouvre le cadenas d'un sac à dos" %>
+    </div>
+</section>
+<section class="wrapper wrapper-white">
+    <h2>Notre <mark class="highlighted highlighted-red">parcours</mark></h2>
+    <ul class="cards-wrapper">
+        <li class="card-container">
+            <%= image_tag "escape-game-bourges-loisirs-patrimoine-seminaire-entreprise-professionelle-collegues.jpg", class:"card-cover-image", alt: "La grande his'Tory peut faire jouer jusqu'à 10 équipes de 6 personnes, pour les séminaires, les EVJF à Bourges." %>
+            <div class="card-content">
+                <h3>Nombre de joueurs</h3>
+                <p class="sub-title">3 joueurs minimum sont nécessaire pour cette quête. Jusqu'à 60 personnes en multi-équipes. <%= link_to 'Contactez-nous', contact_path %> si vous êtes nombreux !
+                </br><%= link_to "👉 Connaître les tarifs", tarifs_path, class: "cta-link" %>
+                </p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "cathedrale-saint-etienne-bourges-parcours-jeu-chasse-piste-tresor-berry.jpg", class:"card-cover-image", alt: "Vue de la tour de beurre de la cathédrale Saint-Etienne de Bourges, par la rue porte jaune" %>
+            <div class="card-content">
+                <h3>Les lieux</h3>
+                <p class="sub-title">Le départ a lieu place Etienne Dolet, entre l'Hôtel de Ville et la Cathédrale Saint-Etienne. Le parcours vous emmènera dans l'un des plus jolis quartier de Bourges dont le charme des rues pavées vous envoutera à coup sûr ...</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "comment-ou-garer-centre-ville-bourges-plan-parking-acces-escape-game-bourges-mystere-jeu-piste.jpg", class:"card-cover-image", alt: "Joueurs autour de la carte de jeu La grande His'Tory, parcours urbain d'escape game en extérieur à Bourges" %>
+            <div class="card-content">
+                <h3>Accès</h3>
+                <p class="sub-title"><b>En voiture :</b> parking Séraucourt (gratuit), parking Hôtel Dieu, parking Place des Marronniers, parking Cour Anatole France, parking Centre commercial Avaricum.</br><b>En bus :</b> Arrêts Séraucourt, Europe, Brisson, Charost, Strasbourg, Anatole France.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "difficulte-jeu-escape-game-bourges-chasse-tresor.jpg", class:"card-cover-image", alt: "Sac mystère et ses objets pour La grande his'Tory, Escape game urbain par Les mystères de Bourges" %>
+            <div class="card-content">
+                <h3>Difficulté intermédiaire</h3>
+                <p class="sub-title">Le parcours est adapté à tout public, bien qu'ayant d'abord été conçu pour les adultes. Le jeu est idéal pour faire collaborer toutes les générations. Si vous n'avez jamais joué à ce genre de jeu, nous conseillons notre parcours <%= link_to 'A vaillant coeur', a_vaillant_coeur_path %>.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "distance-parcours-geoffroy-tory-escape-game-urbain-jeu-piste.jpg", class:"card-cover-image", alt: "Escalier Saint-Guillaume à Bourges, parcours jeu de piste / chasse au trésor façon escape game, les Mystères de Bourges." %>
+            <div class="card-content">
+                <h3>Durée & distance</h3>
+                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est comprise entre 1,8 et 2,6 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.</p>
+            </div>
+        </li>
+        <li class="card-container">
+            <%= image_tag "chaleur-estivale-jeu-ete-printemps-bourges-fontaine.jpg", class:"card-cover-image", alt: "Le parcours autour de Geoffroy Tory est ombragé durant l'été" %>
+            <div class="card-content">
+                <h3>Ensoleillement</h3>
+                <p class="sub-title">Le parcours présente un ensoleillement moyen. En cas de très forte chaleur, vous trouverez de l'ombre auprès des murs de pierre de la vieille ville.</p>
+            </div>
+        </li>
+    </ul>
+    <h2>Réservez <mark class="highlighted highlighted-red">dès maintenant</mark></h2>
+    <p class="sub-title">L'aventure vous attend. Réunissez vos meilleurs amis et lancez vous dans l'aventure ! Il ne manque plus que vous pour briller.</p>
+    <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-big cta-primary", role:"button" %>
+</section>
