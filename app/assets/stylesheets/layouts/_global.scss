@@ -46,6 +46,11 @@ strong, b {
 	background-color: #dde5ff;
 }
 
-.wrapper-red, .wrapper-white, .wrapper-blue {
+.wrapper-wine, .full-wrapper-wine {
+	background-color: var(--light-red-wine);
+	background-color: #FFF1F5;
+}
+
+.wrapper-red, .wrapper-white, .wrapper-blue, .wrapper-wine {
 	padding: 36px 20px;
 }
