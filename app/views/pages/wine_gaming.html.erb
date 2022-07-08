@@ -1,0 +1,88 @@
+<% content_for :meta_title, "Wine gaming, l'activité parfaite pour votre événement d'entreprise | #{DEFAULT_META["meta_title"]}" %>
+<% content_for :meta_description, "Jeu idéal pour les groupes professionnels, mélant énigmes et dégustation de vin pour découvrir l'oenologie. " %>
+
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Découvrez le <mark class="highlighted highlighted-wine">Wine Gaming</mark>, solution oeno-ludique pour la réussite de votre événement professionnel</h1>
+        <p class="sub-title">
+            Vous rêviez d'une activité conviviale, ludique et instructive pour professionnels ? 
+                Nous avons ce qu'il vous faut !
+        </p>
+        <div class="ctas-container">
+            <%= link_to "Contactez-nous aujourd'hui", contact_path, class: "cta cta-primary cta-primary-wine", role:"button" %>
+        </div>
+    </div>
+    <div class="half">
+        <%= image_tag "wine-gaming-seminaire-professionnel-escape-game-degustation-patrimoine-incentive-cohesion-team-building-fioles.jpg", class:"header-img", alt:"Le wine gaming est une activité mélant escape game et dégustation de vin du centre Val-de-Loire." %>
+    </div>
+</header>
+<section class="full-wrapper-wine datatron-home">
+    <div class="wrapper wrapper-wine">
+        <h2>C'est quoi, <mark class="highlighted highlighted-wine">le Wine Gaming</mark> ?</h2>
+        <p class="sub-title">Le Wine gaming est un jeu réunissant le meilleur de l'escape game et de la dégustation de vin. Un concentré de pur plaisir dans une seule boîte pour découvrir le monde de l'œnologie et apprendre les notions de base de la dégustation. Aucune connaissance pré-requise, amenez simplement vos collègues, on s’occupe du reste !</p>
+        <p class="sub-title">Cette boîte mystérieuse verrouillée renferme bien des secrets à percer… qui n’attendent que vous ! Des énigmes, certes, ponctuées de dégustations de vins régionaux qui vous permettront d’avancer dans votre quête ! Convivialité, patrimoine, échanges… tout  y est !</p>
+        <p class="sub-title">Chaque joueur devra collaborer avec ses acolytes pour progresser au cours du jeu. Parfait pour vos événements privés ou professionnels, séminaires, cohésion d'équipes, teambuilding... Tout seul on va plus vite, ensemble on va plus loin ! </p>
+        <p class="sub-title">Dans ce jeu, les fioles renferment un breuvage dont le mystérieux pouvoir serait de resserrer les liens entre collègues ! La légende raconte qu'après un team building autour de notre Wine gaming, les collègues se voient unis par un lien éternel et indéfectible.</p>
+        <%= image_tag "wine-gaming-team-building-cohesion-equipe-seminaire-animation-incentive-tables-verres-banner", class:"landscape-banner-image", alt:"Nous fournissons l'ensemble du matériel nécessaire au Wine Gaming pour la réussite de votre séminaire ou événement d'entreprise" %> 
+    </div>
+</section>
+<section class="wrapper wrapper-white">
+        <h2>A quoi ressemble <mark class="highlighted highlighted-wine">le Wine Gaming</mark> ?</h2>
+        <ul class="cards-wrapper">
+            <% (1..6).each do |x| %>
+                <li class="card-container">
+                    <%= image_tag "wine-gaming-animation-team-building-cohesion-equipe-professionnel-entreprise-seminaire-#{x}", class:"card-cover-image", alt: "Wine Gaming est l'activité parfaite pour votre séminaire d'entreprise, un véritable booster de cohésion d'équipe." %>
+                </li>
+            <% end %>  
+
+        </ul>
+        <h2>Comment jouer <mark class="highlighted highlighted-wine">au Wine Gaming</mark> avec mon entreprise ?</h2>
+        <p class="sub-title">Il peut accueillir de 12 à 30 joueurs en simultané répartis en équipes de 6, qu'ils parlent français ou anglais (et qu’ils boivent, ou pas). <em>Keep calm and drink wine.</em></p>
+        <p class="sub-title">Le Wine Gaming est mobile sur toute la région Centre Val-de-Loire. Les kits de jeu sont livrés avec le vin, les verres et même le maître du jeu (au sourire ravageur). En intérieur, comme en extérieur, le wine gaming est la garantie d'un événement réussi ! Nous nous déplaçons sur vos différents événements. Vous n’en avez pas ? Ne vous inquiétez pas : de nombreux lieux partenaires sont prêts à vous recevoir pour un moment inoubliable !</p>
+        <h2>Des lieux pour <mark class="highlighted highlighted-wine">vous accueillir</mark></h2>
+        <ul class="cards-wrapper">
+            <li class="card-container">
+                <%= image_tag "noirlac-lieu-reception-wine-gaming-seminaire-evenement-entreprise-professionnel-exception.jpg", class:"card-cover-image", alt: "L'abbaye de Noirlac, un lieu d'exception pour accueillir votre équipe lors d'un séminaire ou tout autre événement d'entreprise avec le Wine Gaming" %>
+                <div class="card-content">
+                    <h3>Abbaye de Noirlac</h3>
+                    <p class="sub-title">L'abbaye de Noirlac, un lieu d'exception pour accueillir votre équipe lors d'un séminaire ou tout autre événement d'entreprise avec le Wine Gaming.</p>
+                </div>
+            </li>
+            <li class="card-container">
+                <%= image_tag "hotel-bourbon-bourges-seminaire-evenement-entreprise-team-building-cohesion-equipe-collegues-motivation-productivite", class:"card-cover-image", alt: "Hôtel de Bourbon, avec le Wine Gaming sur la pelouse du jardin." %>
+                <div class="card-content">
+                    <h3>Hôtel de Bourbon</h3>
+                    <p class="sub-title">Situé à deux pas du centre-ville historique de Bourges et à 5 min à pied de la gare SNCF, l'Hôtel de Bourbon est un lieu de référence pour l'accueil de séminaire à Bourges.</p>
+                </div>
+            </li>
+            <li class="card-container">
+                <%= image_tag "grange-des-saveurs-saint-germain-du-puy-bourges-lieu-reception-seminaire-evenement-soiree-salle-gite-team-building-professionnel-cohesion-equipe", class:"card-cover-image", alt: "Installation des tables du Wine Gaming dans la Grande des Saveurs" %>
+                <div class="card-content">
+                    <h3>La grange des saveurs</h3>
+                    <p class="sub-title">A 10 min du centre-ville de Bourges, la grande salle de la grange des saveurs et son gîte peuvent parfaitement accueillir les joueurs du Wine Gaming avec tout le confort nécessaire pour une réception réussie.</p>
+                </div>
+            </li>
+            <li class="card-container">
+                <%= image_tag "villa-belle-epoque-lieu-reception-prestique-seminaire-gite-entreprise-professionnel-bourges", class:"card-cover-image", alt: "La Villa Belle Époque accueille des événements en centre-ville de Bourges." %>
+                <div class="card-content">
+                    <h3>Villa Belle Époque</h3>
+                    <p class="sub-title">La Villa Belle Époque peut accueillir le Wine Gaming au coeur de la ville de Bourges.</p>
+                </div>
+            </li>
+            <li class="card-container">
+                <%= image_tag "wine-gaming-region-centre-val-loire-berry-province-entreprise-hotel-seminaire", class:"card-cover-image", alt: "La prestation du Wine Gaming est disponible sur toute la région Centre-Val de Loire" %>
+                <div class="card-content">
+                    <h3>Le lieu de votre choix</h3>
+                    <p class="sub-title">Vous pouvez commander le Wine Gaming pour jouer sur le lieu de votre choix. Nous nous déplaçons en région Centre Val-de-Loire.</p>
+                </div>
+            </li>
+        </ul>
+</section>
+<section class="full-wrapper-wine datatron-home">
+    <div class="wrapper wrapper-wine">
+        <h2>Votre mission <mark class="highlighted highlighted-wine">Wine Gaming</mark> ?</h2>
+        <p class="sub-title">De par nos activités d’agents mystères, nous avons découvert l'existence d’une confrérie locale secrète. Nos recherches nous ont révélé qu’une épreuve initiatique était nécessaire pour l’intégrer. Trop connus dans la région pour y prendre part, nous cherchons des agents doubles pour infiltrer cette confrérie. Grâce à notre réseau d'agents, nous avons déjà réussi à dérober des documents confidentiels. Ces derniers nous ont permis de créer un test préalable afin de former nos futurs agents à l’épreuve initiatique de ce cercle secret. Serez-vous prêts pour intégrer la confrérie secrète ?</p>
+        <p class="sub-title">Pour toute demande de renseignement et de devis, <%= link_to 'contactez-nous', contact_path %>.</p>
+        <%= image_tag "wine-gaming-seminaire-entreprise-abbay-noirlac-exception-lieu-team-building-cohesion-equipe-performance", class:"landscape-banner-image", alt:"Wine Gaming est l'activité parfaite pour cloturer votre journée de séminaire et gagner le coeur de vos équipes." %> 
+    </div>
+</section>
