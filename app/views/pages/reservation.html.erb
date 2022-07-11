@@ -40,3 +40,13 @@
         </div>
     </div>
 </header>
+<script type="text/javascript">
+  let button = document.getElementById('sendDataFormButton');
+  button.addEventListener(
+    'click',
+    () => {
+      fbq('track', 'Lead');
+    },
+    false
+  );
+</script>
