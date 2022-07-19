@@ -1,0 +1,15 @@
+<% content_for :meta_title, "Horaires | #{DEFAULT_META["meta_title"]}" %>
+<% content_for :meta_description, "Tout savoir sur nos horaires d'ouverture et quand venir jouer." %>
+
+<header class="wrapper header-mobile header-home">
+    <div class="half">
+        <h1>Nos horaires</h1>
+        <p class="sub-title"><b>Jours d'ouverture :</b> Nous jouons du lundi au dimanche de 10h à 18h, toute l'année.</p>
+        <p class="sub-title"><b>Premiers départs :</b> 10 heures, puis toutes les heures sur réservation. (en cas de canicule, possibilié de jouer plus tôt)</p>
+        <p class="sub-title"><b>Derniers départs :</b> 18 heures. Possibilité de jouer en nocture ... <%= link_to 'Contactez-nous !', contact_path %></p>
+        <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-primary", role:"button" %>
+    </div>
+    <div class="half">
+        <%= image_tag "horaires-jeux-escape-game-bourges.jpg", class:"header-img", alt:"Clément et la Grande His'Tory pour découvrir l'histoire de Geoffroy Tory, escape game de plein air à Bourges" %>
+    </div>
+</header>
