@@ -17,8 +17,6 @@
 </header>
 <section class="full-wrapper-red datatron-home">
     <div class="wrapper wrapper-red">
-        <h2>Qui est <mark class="highlighted highlighted-red">Jacques Cœur</mark> ?</h2>
-        <p class="sub-title">Jacques Cœur est un personnage incontournable du paysage local. Né à Bourges, vers 1400, il devient marchand français, négociant, banquier et armateur. Il fut le premier français à établir et entretenir des relations commerciales suivies avec les pays du Levant. C’est une ascension fulgurante : il amasse une fortune considérable. Cependant, sa réussite éclatante l’amène à la disgrâce : en invoquant diverses accusations, ses rivaux et ses nombreux débiteurs, dont le roi, chercheront à provoquer sa chute.</p>
         <h2>Votre <mark class="highlighted highlighted-red">mission</mark></h2>
         <p class="sub-title">Nous sommes le 30 juillet 1451. Jacques Cœur se sait menacé. Le lendemain, le Grand Conseil du Roi le condamne pour le crime de lèse-majesté. Malin et rusé, il aurait caché une partie de sa fortune peu avant son arrestation. La clé de la salle des trésors du Palais Jacques Cœur est à ce jour introuvable. Saurez-vous percer le mystère et retrouver la fortune de Jacques Cœur ?</p>
         <p class="sub-title">À l’aide d’un carnet de route et d’une carte, arpentez la ville de Bourges grâce à notre aventure et percez les mystères de notre étrange besace. Décodez, observez, ouvrez les yeux et arpentez la ville à la recherche de véritables indices. Découvrez les vieux quartiers du centre-ville comme vous ne les avez jamais vus ! En équipe, résolvez des énigmes, guettez le temps imparti et venez vivre une aventure insolite et originale. Vous et votre équipe êtes les héros de cette histoire surprenante !</p>
@@ -63,7 +61,9 @@
             <%= image_tag "distance-corde-duree-jeu-jacques-coeur-chasse-tresor-escape-game.jpg", class:"card-cover-image", alt: "Corde à noeuds sur les pavés de Bourges, patrimoine du centre-ville historique médieval." %>
             <div class="card-content">
                 <h3>Durée & distance</h3>
-                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est d'environ 3 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.</p>
+                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est d'environ 3 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.
+                </br><%= link_to "👉 Nos horaires d'ouverture", horaires_path, class: "cta-link" %>
+                </p>
             </div>
         </li>
         <li class="card-container">
@@ -74,6 +74,8 @@
             </div>
         </li>
     </ul>
+    <h2>Qui est <mark class="highlighted highlighted-red">Jacques Cœur</mark> ?</h2>
+    <p class="sub-title">Jacques Cœur est un personnage incontournable du paysage local. Né à Bourges, vers 1400, il devient marchand français, négociant, banquier et armateur. Il fut le premier français à établir et entretenir des relations commerciales suivies avec les pays du Levant. C’est une ascension fulgurante : il amasse une fortune considérable. Cependant, sa réussite éclatante l’amène à la disgrâce : en invoquant diverses accusations, ses rivaux et ses nombreux débiteurs, dont le roi, chercheront à provoquer sa chute.</p>
     <h2>Réservez <mark class="highlighted highlighted-red">dès maintenant</mark></h2>
     <p class="sub-title">L'aventure vous attend. Réunissez vos meilleurs amis et lancez vous dans l'aventure ! Il ne manque plus que vous pour briller.</p>
     <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-big cta-primary", role:"button" %>
