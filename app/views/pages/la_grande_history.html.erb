@@ -17,8 +17,6 @@
 </header>
 <section class="full-wrapper-red datatron-home">
     <div class="wrapper wrapper-red">
-        <h2>Qui est <mark class="highlighted highlighted-red">Geoffroy Tory</mark> ?</h2>
-        <p class="sub-title">Vous ne connaissez pas Geoffroy Tory ? C'est normal. Ce berruyer d'origine modeste est tombé dans l'oubli. Mais ses travaux sont restés et sont même utilisés quotidiennement par chacun d'entre nous. Voilà pourquoi, lorsque nous avons découvert que celui qui fût le premier homme nommé Imprimeur royal par François Ier était berruyer, nous avons décidé de lui consacrer notre deuxième parcours d'escape game urbain.</p>
         <h2>Votre <mark class="highlighted highlighted-red">mission</mark></h2>
         <p class="sub-title">Téléportés en 1532, Geoffroy Tory de Bourges vous met au défi de retrouver le trésor qu'il a caché. Plongez dans le monde du livre imprimé et de la typographie, laissez-vous guider par les lettres, ouvrez les yeux et déjouez les énigmes conçues par le grand Maître. Cette nouvelle activité en plein air vous mènera dans un des plus beaux quartiers de Bourges. Au cours d'une balade de 2 heures vous en apprendrez davantage sur l'entourage et l'œuvre de celui qui, il y a 500 ans, a révolutionné la langue française.</p>
         <p class="sub-title">Découvrez des rues méconnues du centre-ville ancien de Bourges au cours d'un jeu de piste familial revisité.</p>
@@ -65,7 +63,9 @@
             <%= image_tag "distance-parcours-geoffroy-tory-escape-game-urbain-jeu-piste.jpg", class:"card-cover-image", alt: "Escalier Saint-Guillaume à Bourges, parcours jeu de piste / chasse au trésor façon escape game, les Mystères de Bourges." %>
             <div class="card-content">
                 <h3>Durée & distance</h3>
-                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est comprise entre 1,8 et 2,6 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.</p>
+                <p class="sub-title">L'animation démarre par une petite explication des règles (10-15 min). Vous aurez ensuite 2 heures pour parvenir à résoudre votre mission. La distance parcourue est comprise entre 1,8 et 2,6 km. <b>Attention</b>, l'itinéraire comprend des rues pavées.
+                </br><%= link_to "👉 Nos horaires d'ouverture", horaires_path, class: "cta-link" %>
+                </p>
             </div>
         </li>
         <li class="card-container">
@@ -76,6 +76,8 @@
             </div>
         </li>
     </ul>
+    <h2>Qui est <mark class="highlighted highlighted-red">Geoffroy Tory</mark> ?</h2>
+    <p class="sub-title">Vous ne connaissez pas Geoffroy Tory ? C'est normal. Ce berruyer d'origine modeste est tombé dans l'oubli. Mais ses travaux sont restés et sont même utilisés quotidiennement par chacun d'entre nous. Voilà pourquoi, lorsque nous avons découvert que celui qui fût le premier homme nommé Imprimeur royal par François Ier était berruyer, nous avons décidé de lui consacrer notre deuxième parcours d'escape game urbain.</p>
     <h2>Réservez <mark class="highlighted highlighted-red">dès maintenant</mark></h2>
     <p class="sub-title">L'aventure vous attend. Réunissez vos meilleurs amis et lancez vous dans l'aventure ! Il ne manque plus que vous pour briller.</p>
     <%= link_to 'Réservez dès maintenant', reservation_path, class: "cta cta-big cta-primary", role:"button" %>
