@@ -36,6 +36,8 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 gem 'simple_calendar'
 gem 'rails-i18n'
 
+gem 'sitemap_generator'
+
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
